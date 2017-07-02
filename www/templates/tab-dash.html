@@ -1,0 +1,20 @@
+<ion-view view-title="NEW ENTRY" cache-view="false">
+  <ion-content class="padding">
+      <div class="mileageForm">
+          
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Kilometers</span>
+            <input type="text" placeholder="Enter the kilometers travelled." ng-model="newKm">
+          </label>
+          <br><br>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Liters</span>
+            <input type="text" placeholder="Enter the amount of fuel filled this time" ng-model="newLiters">
+          </label>
+          <h1><br><br><br></h1>
+          <button class="button button-block button-positive" ng-click="addEntry()">
+                Log Entry
+          </button>
+    </div>
+  </ion-content>
+</ion-view>

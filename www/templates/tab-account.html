@@ -1,0 +1,14 @@
+<ion-view view-title="Mileage DataBase" cache-view="false">
+  <ion-content>
+        <div class="list card" ng-repeat="item in mileageDB">
+          <div class="item item-divider">{{item.date}}</div>
+          <div class="item item-body">
+            <div>
+              Km logged: {{item.km}}<br>
+              Liters filled: {{item.liter}}<br>
+              Mileage: {{item.mileage}}
+            </div>
+          </div>
+        </div>
+  </ion-content>
+</ion-view>
